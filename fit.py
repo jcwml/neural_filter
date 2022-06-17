@@ -48,11 +48,11 @@ def shuffle_in_unison(a, b):
 seed(74035)
 model_name = 'keras_model'
 optimiser = 'adam'
-epoches = 1
-activator = 'tanh'
+epoches = 64
+activator = 'gelu'
 layers = 6
 layer_units = 32
-batches = 6
+batches = 999
 samples = 9
 
 # load options
