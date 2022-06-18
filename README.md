@@ -15,7 +15,7 @@ Generate your input files, I used [Audacity](https://www.audacityteam.org/), Gen
 
 - When loading new training data or similar be sure to delete any `.npy` files or the python scripts will load these pre-processed files rather than processing the new files. You can do this by running `clean.sh`.
 
-- My personal opinion is that the best trained model is [gelu_adam_6_32_999_9_512_a41](models/9_sample/unsigned/gelu_adam_6_32_999_9_512_a41).
+- My personal opinion is that the best trained model is [models/9_sample/unsigned/gelu_adam_6_32_999_9_512_a41](models/9_sample/unsigned/gelu_adam_6_32_999_9_512_a41).
 
 ## how
 You will need to put a few files in the working directory;
