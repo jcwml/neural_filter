@@ -9,7 +9,7 @@ If the network produced satisfactory results I would then maybe look at improvin
 
 While I don't provide examples, the output is like adding a noise filter which seemed to have some relevance to frequency response but only just enough to make it an "interesting" noise filter. That being said, noise is noise, and noise is not fun to listen to.
 
-Generate your input files, I used [Audacity](https://www.audacityteam.org/), Generate > Noise, save that as `train_x.raw` as Unsigned 8-bit PCM, then apply a low-pass filter to it and save that as `train_y.raw` in the same format as last time. Then find a song, load it into Audacity, Tracks > Mix > Mix Stereo Down to Mono, then export that as `song.raw` as Unsigned 8-bit PCM again. Once these three file are placed in the same directory as `fit.py` you should now be able to execute `python3 fit.py 6 32 999 tanh adam 1 9 32`. The training process will also generate your first neural transformation of your `song.raw` and output it as `models/tanh_adam_6_32_9999_1_9_32.raw`.
+Generate your input files, I used [Audacity](https://www.audacityteam.org/), Generate > Noise, save that as `train_x.raw` as Unsigned 8-bit PCM, then apply a low-pass filter to it and save that as `train_y.raw` in the same format as last time. Then find a song, load it into Audacity, Tracks > Mix > Mix Stereo Down to Mono, then export that as `song.raw` as Unsigned 8-bit PCM again. Once these three files are placed in the same directory as `fit.py` you should now be able to execute `python3 fit.py 6 32 999 tanh adam 1 9 32`. The training process will also generate your first neural transformation of your `song.raw` and output it as `models/tanh_adam_6_32_9999_1_9_32.raw`.
 
 ## tips
 
