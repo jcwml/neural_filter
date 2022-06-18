@@ -3,7 +3,7 @@ A Feed-forward Neural Network trained to learn a low-pass filter.
 
 Here I tried to teach an FNN to learn a low-pass fiter for use on audio.
 
-Initially I was going to mimic a typical filter but without an RNN, with 9 samples every input to the neural network input would have been shifted by one sample and the four samples either side of it taken. But this would have been tricky to feed into Keras without creating a really bloated dataset. I decided to first see if the network could learn a filter on chunks at a time, at a fixed frequency cutoff. I chose 600hz and 2,000hz.
+Initially I was going to mimic a typical filter but without an RNN, with 9 samples every input to the neural network input would have been shifted by one sample and the four samples either side of it taken. But this would have been tricky to feed into Keras without creating a really bloated dataset. I decided to first see if the network could learn a filter on chunks at a time, at a fixed frequency cutoff. I chose primarily 600hz.
 
 If the network produced satisfactory results I would then maybe look at improving how the network samples the audio, e.g. as single amplitudes at a time with their neighbours rather than chunks at a time. Alas, I don't think the output is worth the effort.
 
