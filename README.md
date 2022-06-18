@@ -19,7 +19,7 @@ Generate your input files, I used [Audacity](https://www.audacityteam.org/), Gen
 
 ## how
 You will need to put a few files in the working directory;
-- `train_x.raw` - This should be the original audio file
+- `train_x.raw` - This should be the original audio file of your choice.
 - `train_y.raw` - This should be the original audio file but with a low-pass filter applied to it.
 - `song.raw` - This should be some audio to apply the neural network to once it has trained.
 
