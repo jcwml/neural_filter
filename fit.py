@@ -115,11 +115,11 @@ else:
 
     load_x = []
     with open("train_x.raw", 'rb') as f:
-            load_x = np.fromfile(f, dtype=np.ubyte)
+        load_x = np.fromfile(f, dtype=np.ubyte)
 
     load_y = []
     with open("train_y.raw", 'rb') as f:
-            load_y = np.fromfile(f, dtype=np.ubyte)
+        load_y = np.fromfile(f, dtype=np.ubyte)
 
     print(".. normalising arrays")
 
@@ -239,7 +239,7 @@ else:
 
     lp_x = []
     with open("song.raw", 'rb') as f:
-            lp_x = np.fromfile(f, dtype=np.ubyte)
+        lp_x = np.fromfile(f, dtype=np.ubyte)
 
     print(".. normalising prediction track")
 
