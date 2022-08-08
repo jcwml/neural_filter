@@ -1,6 +1,8 @@
 # neural_filter
 A Feed-forward Neural Network trained to learn a low-pass filter.
 
+**Notice:** A newer version has been made using the [TFCNNv3](https://github.com/TFCNN/TFCNNv3) library [in this repsitory.](https://github.com/jcwml/neural_filter_tfcnn)
+
 Here I tried to teach an FNN to learn a low-pass fiter for use on audio.
 
 Initially I was going to mimic a typical filter but without an RNN, with 9 samples every input to the neural network input would have been shifted by one sample and the four samples either side of it taken. But this would have been tricky to feed into Keras without creating a really bloated dataset. I decided to first see if the network could learn a filter on chunks at a time, at a fixed frequency cutoff. I chose primarily 600hz.
