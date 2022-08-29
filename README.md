@@ -3,7 +3,7 @@ A Feed-forward Neural Network trained to learn a low-pass filter.
 
 ---
 
-**Notice:** A newer version has been made using the [TFCNNv3](https://github.com/TFCNN/TFCNNv3) library [in this repsitory.](https://github.com/jcwml/neural_filter_tfcnn)
+**Notice:** A newer version has been made using the [TFCNNv3](https://github.com/TFCNN/TFCNNv3) library [in this repository.](https://github.com/jcwml/neural_filter_tfcnn)
 
 ---
 
